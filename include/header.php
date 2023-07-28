@@ -10,8 +10,8 @@
 
 </head>
 <body>
-    <header class=" w-screen h-[50vh] landing-hero bg-contain bg-center">
-        <div class="flex justify-between items-center px-14 py-4 ">
+    <header class=" w-full h-[50vh] landing-hero bg-contain bg-center">
+        <div class="flex justify-between items-center px-14 py-10 container mx-auto">
             <div>
                 <a href="index.php">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-20 text-amber-400" viewBox="0 0 48 48"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M19.763 18.516c-2.825 1.549-5.285 2.87-7.928 2.87a4.333 4.333 0 0 1-4.328-4.01a5.27 5.27 0 0 1 1.868-4.032c.911-.615 1.14-1.206.674-1.862c-.532-.748-1.7-.279-2.2-.028A6.162 6.162 0 0 0 4.5 17.33c0 4.192 2.998 7.512 6.949 7.512c2.642 0 4.192-.42 7.463-1.97c1.272-.603 1.86-.236 2.081.226c.354.736-.712 1.12-1.116 1.316c-.798.388-3.121.479-3.258 1.413a30.581 30.581 0 0 0 .057 3.781s-3.19.581-2.973 1.994s1.447 1.526 2.54 1.515s3.975-1.253 3.964-2.575s.672-1.708 1.15-1.708s2.517.82 2.643 1.583a1.281 1.281 0 0 1-.616 1.56c-.649.456-1.947 1.23-1.879 1.96a1.842 1.842 0 0 0 1.412 1.537s.81 2.21 1.857 2.21s1.333-1.128 1.253-1.788a2.735 2.735 0 0 0-.228-.923a3.715 3.715 0 0 0 2.233-3.326a7.86 7.86 0 0 0-.422-3.656a9.115 9.115 0 0 0 1.037-4.1c-.08-2.062-.353-2.517.535-3.577s4.01-4.681 7.802-4.681s3.805 2.87 3.805 3.645a11.16 11.16 0 0 1-1.128 3.485a1.08 1.08 0 0 0 .227 1.526c.422.296.912.194 1.402-.273a7.504 7.504 0 0 0 2.21-5.046c0-2.63-2.312-6.868-6.675-6.868s-9.363 4.123-9.363 4.123a5.958 5.958 0 0 0 .4-2.312c-.336-1.942-2.427-3.6-5.309-3.6s-4.487 3.28-4.487 5.092a4.478 4.478 0 0 0 1.697 3.11Z"/></svg>
@@ -19,7 +19,7 @@
             </a>
             
             </div>
-            <ul class="flex pl-10 space-x-6 text-white font-semibold uppercase">
+            <ul class="flex pl-10 space-x-14 text-white font-semibold uppercase">
                 <li><a href="catalog.php?path=books" class="hover:text-blue-300 hover:underline">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-8" viewBox="0 0 14 14"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect width="3.5" height="13" x=".55" y=".5" rx=".5"/><rect width="3.5" height="11" x="4.05" y="2.5" rx=".5"/><rect width="3" height="11" x="9.26" y="2.3" rx=".5" transform="rotate(-14.05 10.779 7.795)"/><path d="M.55 10h3.5m0-1h3.5m2.5 2l2.88-.72"/></g></svg>
                     </a>
