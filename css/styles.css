@@ -4,8 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: content-box;
-    /* background:linear-gradient(to bottom, rgba(0,0,0,0.4),100%,rgba(0,0,0,0.8)),url('../img/landing-hero.jpg') ; */
-    
+   
 }
 
 .on{

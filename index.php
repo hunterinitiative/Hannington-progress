@@ -11,9 +11,7 @@
     <Div class="w-[100%] container mx-auto flex flex-wrap justify-center items-center ">
         <?php
             foreach($catalog as $id => $item){
-              
                 echo get_item_html($id,$item);
-
             ;}
 
             ?>

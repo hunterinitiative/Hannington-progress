@@ -9,12 +9,20 @@ include("include/data.php");
 
 ?>
 
-<section class="h-screen  container mx-auto flex flex-col justify-start items-center pt-20">
-  
-
-    <Div class="container mx-auto flex flex-wrap justify-center items-center ">
+<section class="min-h-screen   flex flex-col justify-start items-center pt-6 ">
+    <Div class="w-[100%] container mx-auto flex flex-wrap justify-center items-center ">
         
+        <?php 
+        
+            $random = array_rand($catalog,4);
 
+            foreach($random as $id ){
+              
+                echo get_item_html($id,$catalog[$id]);
+
+            ;}
+        
+        ?>
     </Div>
 
 </section>

@@ -16,6 +16,18 @@ function get_item_html($id,$item){
 
 
     //random function
+    function array_category($catalog, $category){
+       
+        $output = array();
+            foreach ($category as $id => $item) {
+
+                if(strtolower($category) == strtolower($item["category"])){
+                    $output[]=$id;
+                }
+            }
+
+        return $output;
+    }
 
     
 ?>
