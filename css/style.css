@@ -1,8 +1,0 @@
-.landing-hero{
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background:linear-gradient(to bottom, rgba(0,0,0,0.8),100%,rgba(0,0,0,0.8)),url('../img/landing-hero.jpg') ;
-    
-}
