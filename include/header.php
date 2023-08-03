@@ -47,7 +47,7 @@
                 }
         }
     ?>
-    <header class=" w-screen h-[70vh] bg-set bg-cover bg-no-repeat flex flex-col justify-between" style="background:linear-gradient(to bottom, rgba(0,0,0,0.8),100%,rgba(0,0,0,0.8)),url('../img/<?php echo $sectionHero; ?>')">
+    <header class=" w-screen md:h-[70vh] xl:h-[55vh] bg-set bg-cover bg-no-repeat flex flex-col justify-between" style="background:linear-gradient(to bottom, rgba(0,0,0,0.8),100%,rgba(0,0,0,0.8)),url('../img/<?php echo $sectionHero; ?>')">
         <div class="container mx-auto flex justify-between items-center px-4 lg:py-4 xl:py-8">
             <div>
                 <a href="index.php">
