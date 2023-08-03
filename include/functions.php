@@ -3,7 +3,7 @@
 function get_item_html($id,$item){
 
     $output = '<div class="m-10 p-5 w-64 border- bg-re-100 flex flex-col justify-around items-center rounded-lg text-center">'
-        .'<a href="#">'
+        .'<a href="#" class"">'
         .'<img  src ="'
         .$item["img"].'" alt="' 
         .$item["title"]. '"/>'
