@@ -89,7 +89,7 @@
                 </li>
             </ul>
         </div>
-        <section class=" container mx-auto px-4 pb-24">
+        <section class=" container mx-auto px-4 lg:pb-20 xl:pb-24 space-y-4">
             <h1 class="text-white text-7xl font-extrabold"><?php echo $pageTitle; ?>
                 
             </h1>
