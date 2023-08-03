@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php
-        $pageTitle = "Med!a Point";
+        $pageTitle = 'Med<span class="text-yellow-600 font-extrabold">!</span>a Point';
         $section = null;
         $sectionHero = "landing-hero.jpg";
 

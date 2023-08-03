@@ -8,7 +8,7 @@
   
 ?>
 
-<section class="min-h-screen container mx-auto flex flex-col justify-start items-center pt-20">
+<section class="min-h-screen container mx-auto flex flex-col justify-start items-center md:pt-8 xxl:pt-20">
    
     <Div class="container mx-auto flex flex-wrap justify-center items-center ">
      
