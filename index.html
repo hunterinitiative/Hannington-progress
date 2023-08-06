@@ -5,9 +5,47 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>weathe-app</title>
+    <title>weather-app</title>
 </head>
 <body>
+    <section class="flex justify-center items-start ">
+        
+            <div class="card min-w-[500px] h-[auto] border-2 border-gray-200 flex flex-col items-center py-16 px-8">
+                <h1 class="text-4xl font-thin pb-10 text-white">Simple Weather</h1>
+                <div class=" flex  justify-between w-[80%] rounded-full h-  px-4 py-2 bg-white">
+                    <input type="text" class="search w-[90%] py- px-2" placeholder="search city">
+                    <button class="submit pl-2 "> <img class="h- w-6" src="img/search.png" alt=""></button>
+                </div>
+                <div class="hidden weather text-white text-center h-[65vh] w-full flex flex-col justify-center container mx-auto mt-20">
+                    <div class="flex flex-col justify-center items-center space-y-2">
+                        <img class="w-48 h-48 weather-icon" src="img/rain.png" alt="">
+                        <h1 class=" text-6xl"><span class="temp"></span> °C</h1>
+                        <h2 class="city text-3xl mt-4">Nairobi</h2>
+                    </div>
+                    
+                    <div class="details flex justify-between items-center w-[100%]  mt-24 px-14">
+                        <div class="col flex w-">
+                            <img class="h-10" src="img/humidity.png" alt="">
+                            <div class="-mt-2 pl-4 font-base text-start ">
+                                <p class=""><span class="humidity pr-2 text-2xl"></span>%</p>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+                        <div class="col flex w-">
+                            <img class="h-10" src="img/wind.png" alt="">
+                            <div class="-mt-2 pl-4 font-base text-start ">
+                                <p class=""> <span class="wind pr-2 text-2xl"></span>Km/h</p>
+                                <p>Wind Speed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
     
+    <script src="script.js"></script>
 </body>
 </html>
